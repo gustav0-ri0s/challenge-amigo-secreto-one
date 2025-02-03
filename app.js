@@ -20,19 +20,25 @@ function agregarAmigo(){
     let nombre = document.getElementById('amigo').value;
     if (nombre == ""){
         alert("Nombre inválido, intentelo nuevamente");
-    } else {
-        if (nombresAmigos.includes(nombre)){
-            alert("Nombre ya existe");
-            limpiarcaja();
-        } else {
-            nombresAmigos.push(nombre);
-            console.log(nombresAmigos);
-            asignarTextoElemento('#listaAmigos',nombre);
-            limpiarcaja();
-        }
-        
+        return;
+    }
+
+    if (nombresAmigos.includes(nombre)){
+        alert("Nombre ya existe");
+        limpiarcaja();
+        return;
+    }
+
+    if (!isNaN(nombre)){
+        alert("No puedes ingresar un número como nombre. Intenta nuevamente");
+        limpiarcaja();
+        return;
     }
     
+    nombresAmigos.push(nombre);
+    console.log(nombresAmigos);
+    asignarTextoElemento('#listaAmigos',nombre);
+    limpiarcaja();      
 }
 
 
@@ -49,5 +55,11 @@ function sortearAmigo(){
     // Limpiar el contenido previo de #resultado
     document.querySelector('#resultado').innerHTML = "";
     asignarTextoElemento('#resultado',texto);
+
+    // Cambiar solo el texto del botón sin eliminar la imagen
+    let botonSortear = document.querySelector('.button-draw');
+    
+    // Cambiar el texto del botón y mantener la imagen
+    botonSortear.innerHTML = '<img src="assets/play_circle_outline.png" alt="Ícono para sortear"> Sortea otra vez';
 
 }
