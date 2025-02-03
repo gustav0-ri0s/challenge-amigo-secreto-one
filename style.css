@@ -89,7 +89,10 @@ body {
 
 .button-container {
     width: 300px;
+    display: flex; /* Activa flexbox */
     justify-content: center;
+    gap: 10px; /* Añade espacio entre los botones */
+    flex-wrap: wrap; /* Permite que los botones bajen si no hay espacio */
 }
 
 /* Estilos de entrada de texto */
@@ -146,11 +149,13 @@ ul {
 .button-draw {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100%;
     padding: 10px 40px;
     color: var(--color-white);
     background-color: var(--color-button);
     font-size: 16px;
+    text-align: center;
 }
 
 .button-draw img {

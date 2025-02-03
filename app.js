@@ -1,6 +1,8 @@
 // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
 let nombresAmigos = [];
 
+valoresIniciales();
+
 function limpiarcaja(){
     document.querySelector('#amigo').value='';
 }
@@ -15,6 +17,26 @@ function asignarTextoElemento(elemento, texto) {
     }
 }
 
+function valoresIniciales(){
+    nombresAmigos = [];
+    document.getElementById('listaAmigos').innerHTML = "";
+    document.getElementById('resultado').innerHTML = "";
+    limpiarcaja();    
+
+    // Ocultar el botón de "Nuevo sorteo"
+    document.getElementById('nuevoSorteo').style.display = "none";
+
+    // Cambiar solo el texto del botón sin eliminar la imagen
+    let botonSortear = document.querySelector('.button-draw');
+    
+    // Cambiar el texto del botón y mantener la imagen
+    botonSortear.innerHTML = '<img src="assets/play_circle_outline.png" alt="Ícono para sortear"> Sortear amigo';
+}
+
+function reiniciarSorteo(){
+    valoresIniciales();
+    console.log("Sorteo reiniciado!");
+}
 
 function agregarAmigo(){
     let nombre = document.getElementById('amigo').value;
@@ -62,4 +84,6 @@ function sortearAmigo(){
     // Cambiar el texto del botón y mantener la imagen
     botonSortear.innerHTML = '<img src="assets/play_circle_outline.png" alt="Ícono para sortear"> Sortea otra vez';
 
+    // Mostrar el botón de "Nuevo sorteo"
+    document.getElementById('nuevoSorteo').style.display = "inline-block";
 }
