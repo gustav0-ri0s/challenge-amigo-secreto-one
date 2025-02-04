@@ -1,4 +1,4 @@
-<h1 align="center">:closed_lock_with_key: Challenge: Amigo Secreo</h1>
+<h1 align="center">:closed_lock_with_key: Challenge: Amigo Secreto</h1>
 
 ## :pencil: Descripción del proyecto
 Este es un proyecto interactivo que permite a los usuarios registrar nombres de participantes y luego realizar un sorteo aleatorio para elegir un "amigo secreto". La aplicación es sencilla, dinámica y fácil de usar.
