@@ -14,20 +14,17 @@ Este es un proyecto interactivo que permite a los usuarios registrar nombres de 
 ✅ Validaciones de Datos
 El sistema cuenta con las siguientes validaciones para mejorar la experiencia del usuario:
 
-1. **Evitar nombres vacíos**  
-   - Si el usuario intenta agregar un campo vacío, se mostrará una alerta.  
-
-2. **Evitar nombres repetidos**  
-   - Si un nombre ya está en la lista, el sistema alerta al usuario y no lo agrega nuevamente.  
-
-3. **Evitar números en los nombres**  
-   - Se verifica que el nombre ingresado no contenga números, mostrando una alerta en caso contrario.  
-
-4. **Sorteo válido**  
-   - No se permite realizar el sorteo si la lista está vacía.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d27e90fc-93d1-4391-b1fa-5616d97279a2" alt="Validaciones">
+</p>
 
 ## :computer: Vista Previa
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3f1b9ec8-a7ba-416d-9274-fca34e27a303" alt="Captura de imagen">
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cf72fee3-cf77-4fef-8345-fa606e00244a" alt="Procedimiento">
+</p>
 
 
 ## :computer: Tecnologías utilizadas
@@ -49,9 +46,9 @@ Desarrollado por Gustavo Rios Quevedo
 ## :gift_heart: Agradecimientos
 Este proyecto se hizo posible gracias a Oracle y Alura Latam a través del Programa ONE, el cual me ayudó a adquirir nuevos conocimientos de desarrollo web y a entender sobre lógica de programación. Muchas gracias también a los profesores de Alura Latam por hacer más sencillo la forma de aprender programación.
 
-## :trophy: INSIGNIA DE FINALIZACIÓN
-<p align="center">
-  <img src="https://github.com/gustav0-ri0s/Challenge-Encriptador/blob/main/img/insignia-finish.png" alt="Insignia de Finalización">
-</p>
+[## :trophy: INSIGNIA DE FINALIZACIÓN]: #
+[<p align="center">]: #
+ [ <img src="https://github.com/gustav0-ri0s/Challenge-Encriptador/blob/main/img/insignia-finish.png" alt="Insignia de Finalización">]: #
+[</p>]: #
 
 <!-- ![Image text](https://github.com/gustav0-ri0s/Challenge-Encriptador/blob/main/img/insignia-finish.png) -->
