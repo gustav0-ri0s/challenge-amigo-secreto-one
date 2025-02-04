@@ -46,9 +46,9 @@ Desarrollado por Gustavo Rios Quevedo
 ## :gift_heart: Agradecimientos
 Este proyecto se hizo posible gracias a Oracle y Alura Latam a través del Programa ONE, el cual me ayudó a adquirir nuevos conocimientos de desarrollo web y a entender sobre lógica de programación. Muchas gracias también a los profesores de Alura Latam por hacer más sencillo la forma de aprender programación.
 
-[## :trophy: INSIGNIA DE FINALIZACIÓN]: #
-[<p align="center">]: #
- [ <img src="https://github.com/gustav0-ri0s/Challenge-Encriptador/blob/main/img/insignia-finish.png" alt="Insignia de Finalización">]: #
-[</p>]: #
+## :trophy: INSIGNIA DE FINALIZACIÓN
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/8d821994-fec6-44d1-96db-8e62b68fb3d2" alt="Insignia de Finalización">
+</p>
 
-<!-- ![Image text](https://github.com/gustav0-ri0s/Challenge-Encriptador/blob/main/img/insignia-finish.png) -->
+
