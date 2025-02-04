@@ -33,7 +33,7 @@ El sistema cuenta con las siguientes validaciones para mejorar la experiencia de
 - JavaScript
 
 ## :sparkles: Acceso
-Puedes acceder a la Deploy de este proyecto <a target="_blank" href="https://gustav0-ri0s.github.io/Challenge-Encriptador/">aquí</a>
+Puedes acceder a la Deploy de este proyecto <a target="_blank" href="https://gustav0-ri0s.github.io/challenge-amigo-secreto-one/">aquí</a>
 
 ## :man_student: Autor
 Desarrollado por Gustavo Rios Quevedo
