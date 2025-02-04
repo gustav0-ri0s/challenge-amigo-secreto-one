@@ -3,7 +3,7 @@
 ## :pencil: Descripción del proyecto
 Este es un proyecto interactivo que permite a los usuarios registrar nombres de participantes y luego realizar un sorteo aleatorio para elegir un "amigo secreto". La aplicación es sencilla, dinámica y fácil de usar.
 
- ⚛️ Funcionalidades y Retos:
+ ⚛️ **Funcionalidades y Retos:**
 - Permite agregar nombres a una lista.
 - Verifica que el nombre no se repita ni contenga números.
 - Realiza un sorteo aleatorio de un "amigo secreto".
@@ -11,8 +11,8 @@ Este es un proyecto interactivo que permite a los usuarios registrar nombres de 
 - Cambia el botón a "Sortea otra vez" después del primer sorteo.
 - Aparece un botón de "Nuevo sorteo" para reiniciar el proceso.
 
-✅ Validaciones de Datos
-El sistema cuenta con las siguientes validaciones para mejorar la experiencia del usuario:
+✅ **Validaciones de Datos**
+- El sistema cuenta con las siguientes validaciones para mejorar la experiencia del usuario:
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d27e90fc-93d1-4391-b1fa-5616d97279a2" alt="Validaciones">
