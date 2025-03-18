@@ -1,9 +1,9 @@
-<h1 align="center">:closed_lock_with_key: Challenge: Amigo Secreo</h1>
+<h1 align="center">:closed_lock_with_key: Challenge: Amigo Secreto</h1>
 
 ## :pencil: Descripción del proyecto
 Este es un proyecto interactivo que permite a los usuarios registrar nombres de participantes y luego realizar un sorteo aleatorio para elegir un "amigo secreto". La aplicación es sencilla, dinámica y fácil de usar.
 
- ⚛️ Funcionalidades y Retos:
+ ⚛️ **Funcionalidades y Retos:**
 - Permite agregar nombres a una lista.
 - Verifica que el nombre no se repita ni contenga números.
 - Realiza un sorteo aleatorio de un "amigo secreto".
@@ -11,8 +11,8 @@ Este es un proyecto interactivo que permite a los usuarios registrar nombres de 
 - Cambia el botón a "Sortea otra vez" después del primer sorteo.
 - Aparece un botón de "Nuevo sorteo" para reiniciar el proceso.
 
-✅ Validaciones de Datos
-El sistema cuenta con las siguientes validaciones para mejorar la experiencia del usuario:
+✅ **Validaciones de Datos**
+- El sistema cuenta con las siguientes validaciones para mejorar la experiencia del usuario:
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d27e90fc-93d1-4391-b1fa-5616d97279a2" alt="Validaciones">
@@ -46,9 +46,12 @@ Desarrollado por Gustavo Rios Quevedo
 ## :gift_heart: Agradecimientos
 Este proyecto se hizo posible gracias a Oracle y Alura Latam a través del Programa ONE, el cual me ayudó a adquirir nuevos conocimientos de desarrollo web y a entender sobre lógica de programación. Muchas gracias también a los profesores de Alura Latam por hacer más sencillo la forma de aprender programación.
 
-## :trophy: INSIGNIA DE FINALIZACIÓN
+## :trophy: Insignia de finalización
 <p align="center">
  <img src="https://github.com/user-attachments/assets/8d821994-fec6-44d1-96db-8e62b68fb3d2" alt="Insignia de Finalización">
 </p>
+
+## 🎓 Certificado
+- Certificado por la finalizacion del curso <a href="https://app.aluracursos.com/certificate/87ebabf2-30d3-4c29-9be7-ea101833ab04">(ver aquí)</a>
 
 
